@@ -19,7 +19,7 @@ public class ProductTest {
     @Test
     public void checkProductPrice() {
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals(180.0, aProduct.getPrice(),"Check the price of the product");
+        assertEquals("Check the price of the product", 180.0, aProduct.getPrice());
     }
 
 
